@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contacts</title>
+    <link href="<%= url("/css/style.css") %>" rel="stylesheet" type="text/css"> 
+  </head>
+  <body>
+  <h1>Contacts</h1>
+
+    <ul>
+      <% @contacts.each do |contact| %>
+        <li><%= contact.name %> - <%= contact.phone_number %></li>
+      <% end %>
+    </ul>
+  </body>
+</html>

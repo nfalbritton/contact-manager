@@ -1,0 +1,14 @@
+body {
+    background-color: darkslategrey;
+    color: azure;
+    font-size: 1.1em;
+}
+
+h1, h3 {
+    color: coral;
+}
+
+li, p {
+    font-size: 1.3em;
+    color: orange;
+}
